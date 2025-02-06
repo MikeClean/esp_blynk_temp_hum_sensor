@@ -19,7 +19,7 @@ void setup() {
     while (1);
   }
 
-  Blynk.begin(BLYNK_AUTH_TOKEN, "chistov", "Quasar1989");
+  Blynk.begin(BLYNK_AUTH_TOKEN, "login", "passvord");
 }
 
 void sendSensorData() {
